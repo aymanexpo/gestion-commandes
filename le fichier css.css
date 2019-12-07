@@ -1,0 +1,83 @@
+body{
+  background-image: linear-gradient(to right top,
+     #f87600, #ff6543, #ff5b6e, #ff5d97, #ff6abc,
+     #ff66bd, #ff61bf, #ff5dc0, #ff3c9b, #ff0f70,
+     #ff0042, #fb0000);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.divButton{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+#valider{
+  border: none;
+  background: rgba(255, 200, 200, 0.5);
+  border-radius: 25px;
+  border-color: #FB0000;
+  cursor: pointer;
+}
+
+.hidden{
+  display: none;
+}
+
+
+.button{
+  border: none;
+  background: rgba(255, 200, 200, 0.5);
+  border-radius: 25px;
+  border-color: #FB0000;
+  height: 25px;
+  width: 150px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.button:hover{
+  width: 120%;
+  transition: 0.5s;
+  background-color: #F87600;
+}
+
+.all{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  border: 2px solid yellow;
+  border-radius: 35px;
+  width: 350px;
+  height: 380px;
+}
+
+.suiv{
+  border: none;
+  background: rgba(255, 200, 200, 0.5);
+  border-radius: 25px;
+  border-color: #FB0000;
+  height: 25px;
+  width: 150px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.suiv:hover{
+  width: 50%;
+  transition: 0.5s;
+  background-color: #F87600;
+}
+
+.input{
+  background: none;
+  border: none;
+  border: none;
+  background: rgba(255, 200, 200, 0.5);
+  border-radius: 25px;
+  text-align: center;
+  height: 20px;
+}
